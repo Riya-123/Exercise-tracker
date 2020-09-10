@@ -1,1 +1,35 @@
+#navbar {
+	overflow: hidden;
+	background-color: #ecf0f1;
+}
 
+.navbar-brand {
+	font-weight: bold;
+	color: rgb(228, 93, 116);
+}
+.sidenav {
+	height: 100%;
+	width: 160px;
+	position: fixed;
+	z-index: 1;
+	top: 55px;
+	left: 0;
+	background-color: #ecf0f1;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+.nav-link {
+	padding: 36px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 15px;
+	color: #818181;
+	display: block;
+	top: 60px;
+	height: 20px;
+	margin: 5px;
+}
+
+.nav-link:hover {
+	color: black;
+}
